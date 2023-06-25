@@ -36,7 +36,8 @@ a {
   left: 41.6%;
 }
 
-.headlist > ul, .headlist > label {
+.headlist > ul,
+.headlist > label {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -50,7 +51,7 @@ a {
 
 select {
   font-size: 0.9rem;
-  background-color: #F6F4E7;
+  background-color: #f6f4e7;
   border-width: 0;
 }
 
@@ -1041,6 +1042,7 @@ ul li i:after {
   padding: 0;
   margin: 0;
 }
+
 #faq ul li {
   position: relative;
   overflow: hidden;
@@ -1105,7 +1107,6 @@ ul li i:after {
 #faq ul li input[type="checkbox"]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
-
 
 /* Revolutionalizing */
 .revolution {
@@ -1175,7 +1176,6 @@ ul li i:after {
   position: absolute;
   top: 4600px;
   opacity: 0.8;
-
 }
 
 .footerbody {
@@ -1281,9 +1281,11 @@ ul li i:after {
 .whysciccors {
   margin-bottom: 56px;
 }
+
 .solutions {
   margin-bottom: 24px;
 }
+
 .products {
   margin-bottom: 56px;
 }
