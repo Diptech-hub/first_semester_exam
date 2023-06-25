@@ -36,7 +36,7 @@ a {
   left: 41.6%;
 }
 
-.headlist > ul {
+.headlist > ul, .headlist > label {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -46,6 +46,12 @@ a {
   width: 504px;
   height: 24px;
   font-family: "Poppins";
+}
+
+select {
+  font-size: 0.9rem;
+  background-color: #F6F4E7;
+  border-width: 0;
 }
 
 .log {
